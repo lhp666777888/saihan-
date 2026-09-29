@@ -94,9 +94,26 @@ $$
 
 ### 5.4 Pearson 相关系数
 
+用于衡量两个连续变量之间的线性相关程度：
+
 $$
-r_{XY}=\frac{\operatorname{Cov}(X,Y)}{\sigma_X\sigma_Y}
+r_{XY}=\frac{\mathrm{Cov}(X,Y)}{\sigma_X \sigma_Y}
 $$
+
+其中：
+
+- $r_{XY}$：变量 $X$ 与 $Y$ 的 Pearson 相关系数；
+- $\mathrm{Cov}(X,Y)$：变量 $X$ 与 $Y$ 的协方差；
+- $\sigma_X$：变量 $X$ 的标准差；
+- $\sigma_Y$：变量 $Y$ 的标准差。
+
+Pearson 相关系数满足：
+
+$$
+-1 \leq r_{XY} \leq 1
+$$
+
+其绝对值越接近 1，表示两个变量之间的线性相关程度越强；越接近 0，则线性相关程度越弱。
 
 ### 5.5 多元回归与滞后回归
 
